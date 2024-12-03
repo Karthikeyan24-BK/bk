@@ -1,0 +1,166 @@
+/* car top */
+#left{
+    height:150px;
+    width:200px;
+    background-color:red;
+    margin-top:100px;
+    border-radius:310px 0px 0px 90px;
+    box-shadow: 10px 20px 10px black;
+}
+#center{
+    height:250px;
+    width:250px;
+    background-color:red;
+    border-radius: 100px 50px 0px 0px;
+    box-shadow: 10px 20px 10px black;
+}
+#right{
+    height:150px;
+    width:200px;
+    background-color:red;
+    margin-top:100px;
+    border-radius:0px 310px 0px 0px;
+    box-shadow: 10px 20px 10px black;
+}
+#glass1{
+    background-color: aquamarine;
+    height: 70px;
+    width: 90px;
+    position:relative;
+    left:10%;
+    border:5px solid black;
+    border-radius:100px 0px 0px 0px;
+    margin-top: 15px;
+    
+
+}
+#glass2{
+    background-color: aquamarine;
+    height:68px;
+    width:85px ;
+    position:relative;
+    bottom: 35%;
+    margin-top: 10px;
+    border:5px solid black;
+    border-radius: 0px 45px 0px 0px;
+    left:55%;
+    
+
+}
+ #light{
+     background-color: whitesmoke;
+     height: 25px;
+     width: 65px;
+     border:8px solid black;
+     border-radius:0px 1400px 0px 900px ;
+     position:absolute;
+     left:530px;
+     
+ }
+#top{
+    display:flex;
+
+} 
+#light:hover{
+    background-color: yellow;
+    box-shadow: 0px 0px 50px yellow;
+}
+
+/*  car bottom */
+#lwheel{
+    background-color:black;
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+    margin-left:80px;
+    position: absolute;
+    bottom:15%;
+    
+
+}
+#rwheel{
+    background-color:black;
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+    position: absolute;
+    left:31%;
+    bottom:15%;   
+}
+#lline{
+    background-color: gray;
+    height:100px;
+    width:100px;
+    border-top:solid 5px white;
+    border-right: solid 5px white;
+    border-radius: 100%;
+    position:relative;
+    left:15%;
+    top:17%;
+    animation: wheel 1s linear infinite ;
+
+}
+#rline{
+    background-color: gray;
+    height:100px;
+    width:100px;
+    border-top:solid 5px white; 
+    border-right: solid 5px white;
+    border-radius: 100%;
+    position:relative;
+    left:15%;
+    top:17%;
+    animation:wheel  1s linear infinite;
+    
+}
+@keyframes wheel { 
+    from{rotate: 0deg;}
+    to{rotate: 360deg;}
+ } 
+/* baackground*/
+.road{  
+    background-color: black;
+    height:45px;
+    display:block ;
+    margin-top:3%;
+}
+#green{
+    background-color: green;
+    height:50px;
+    width: 100%;
+    display:block;
+}
+  
+ 
+body{
+    background-color:skyblue;
+}
+
+h1{
+    background-color: darkblue;
+    color:whitesmoke;
+    text-align: center;
+    box-shadow: 0px 20px 90px darkblue;
+} 
+.car{ 
+    margin-top: 2%;
+}
+#sun{
+    background-color: rgb(255, 192, 1);
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 50px yellow;
+}
+#sky1{
+    height: 30px;
+    width: 30px;
+    background-color: aliceblue;
+    border-radius: 50px;
+
+
+}
+
+
+
+
